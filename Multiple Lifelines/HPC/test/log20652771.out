@@ -1,0 +1,11 @@
+Module scikit-learn not found, using pip instead.
+Collecting scikit-learn
+  Downloading scikit_learn-1.4.1.post1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.1 MB)
+Requirement already satisfied: scipy>=1.6.0 in /appl/scipy/1.7.3-numpy-1.22.2-python-3.10.2/lib/python3.10/site-packages/scipy-1.7.3-py3.10-linux-x86_64.egg (from scikit-learn) (1.7.3)
+Requirement already satisfied: numpy<2.0,>=1.19.5 in /appl/numpy/1.22.2-python-3.10.2-openblas-0.3.19/lib/python3.10/site-packages/numpy-1.22.2-py3.10-linux-x86_64.egg (from scikit-learn) (1.22.2)
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-3.4.0-py3-none-any.whl (17 kB)
+Collecting joblib>=1.2.0
+  Downloading joblib-1.3.2-py3-none-any.whl (302 kB)
+Installing collected packages: threadpoolctl, joblib, scikit-learn
+Successfully installed joblib-1.3.2 scikit-learn-1.4.1.post1 threadpoolctl-3.4.0

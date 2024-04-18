@@ -1,0 +1,229 @@
+Loaded dependency [mpi/4.1.2-gcc-10.3.0-binutils-2.36.1]: gcc/10.3.0-binutils-2.36.1
+Loaded dependency [mpi4py/3.1.3-python-3.10.2-openmpi-4.1.2]: mpi/4.1.2-gcc-10.3.0-binutils-2.36.1
+Loaded dependency [mpi4py/3.1.3-python-3.10.2-openmpi-4.1.2]: python3/3.10.2
+Loaded module: mpi4py/3.1.3-python-3.10.2-openmpi-4.1.2
+
+Loading mpi4py/3.1.3-python-3.10.2-openmpi-4.1.2
+  Loading requirement: gcc/10.3.0-binutils-2.36.1
+    mpi/4.1.2-gcc-10.3.0-binutils-2.36.1 python3/3.10.2
+Loaded dependency [numpy/1.22.2-python-3.10.2-openblas-0.3.19]: openblas/0.3.19
+Loaded dependency [pandas/1.4.1-python-3.10.2]: numpy/1.22.2-python-3.10.2-openblas-0.3.19
+Loaded module: pandas/1.4.1-python-3.10.2
+
+Loading pandas/1.4.1-python-3.10.2
+  Loading requirement: openblas/0.3.19
+    numpy/1.22.2-python-3.10.2-openblas-0.3.19
+Loaded module: scipy/1.7.3-python-3.10.2
+Loaded module: matplotlib/3.5.1-numpy-1.22.2-python-3.10.2
+ERROR: Unable to locate a modulefile for 'tensorflow/2.6.0'
+    ERROR: Command errored out with exit status 1:
+     command: /appl/python/3.10.2/bin/python3 -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rfyutn7p/sklearn_3cabe9fa45c64c898072b582f795d439/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rfyutn7p/sklearn_3cabe9fa45c64c898072b582f795d439/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-q3ld7ged
+         cwd: /tmp/pip-install-rfyutn7p/sklearn_3cabe9fa45c64c898072b582f795d439/
+    Complete output (15 lines):
+    The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+    rather than 'sklearn' for pip commands.
+    
+    Here is how to fix this error in the main use cases:
+    - use 'pip install scikit-learn' rather than 'pip install sklearn'
+    - replace 'sklearn' by 'scikit-learn' in your pip requirements files
+      (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+    - if the 'sklearn' package is used by one of your dependencies,
+      it would be great if you take some time to track which package uses
+      'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+    - as a last resort, set the environment variable
+      SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+    
+    More information is available at
+    https://github.com/scikit-learn/sklearn-pypi-package
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/46/1c/395a83ee7b2d2ad7a05b453872053d41449564477c81dc356f720b16eac4/sklearn-0.0.post12.tar.gz#sha256=54cff9e20839b7b202321178228af4d9388bedf78425d9299fd9ee170d68802e (from https://pypi.org/simple/sklearn/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+    ERROR: Command errored out with exit status 1:
+     command: /appl/python/3.10.2/bin/python3 -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rfyutn7p/sklearn_cb448313d30249b69a1d0de9c0223c89/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rfyutn7p/sklearn_cb448313d30249b69a1d0de9c0223c89/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-drdi9up5
+         cwd: /tmp/pip-install-rfyutn7p/sklearn_cb448313d30249b69a1d0de9c0223c89/
+    Complete output (18 lines):
+    The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+    rather than 'sklearn' for pip commands.
+    
+    Here is how to fix this error in the main use cases:
+    - use 'pip install scikit-learn' rather than 'pip install sklearn'
+    - replace 'sklearn' by 'scikit-learn' in your pip requirements files
+      (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+    - if the 'sklearn' package is used by one of your dependencies,
+      it would be great if you take some time to track which package uses
+      'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+    - as a last resort, set the environment variable
+      SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+    
+    More information is available at
+    https://github.com/scikit-learn/sklearn-pypi-package
+    
+    If the previous advice does not cover your use case, feel free to report it at
+    https://github.com/scikit-learn/sklearn-pypi-package/issues/new
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/a4/0b/d1c703256cf293be77b7db44dbef62251fe02a97d0bef981f7120b0b0c0f/sklearn-0.0.post11.tar.gz#sha256=af035c4f0b970b7fc2d3856079aa1aa1032df3d7f65048a9d87114abf13c4629 (from https://pypi.org/simple/sklearn/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+    ERROR: Command errored out with exit status 1:
+     command: /appl/python/3.10.2/bin/python3 -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rfyutn7p/sklearn_ca3933e995e94cb7a3888f8a4e30f7c1/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rfyutn7p/sklearn_ca3933e995e94cb7a3888f8a4e30f7c1/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-0v_4ma4l
+         cwd: /tmp/pip-install-rfyutn7p/sklearn_ca3933e995e94cb7a3888f8a4e30f7c1/
+    Complete output (18 lines):
+    The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+    rather than 'sklearn' for pip commands.
+    
+    Here is how to fix this error in the main use cases:
+    - use 'pip install scikit-learn' rather than 'pip install sklearn'
+    - replace 'sklearn' by 'scikit-learn' in your pip requirements files
+      (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+    - if the 'sklearn' package is used by one of your dependencies,
+      it would be great if you take some time to track which package uses
+      'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+    - as a last resort, set the environment variable
+      SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+    
+    More information is available at
+    https://github.com/scikit-learn/sklearn-pypi-package
+    
+    If the previous advice does not cover your use case, feel free to report it at
+    https://github.com/scikit-learn/sklearn-pypi-package/issues/new
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/b9/0e/b2a4cfaa9e12b9ca4c71507bc26d2c99d75de172c0088c9835a98cf146ff/sklearn-0.0.post10.tar.gz#sha256=d4cd5a2e64b3caaf82cd5e33c46884dfeec5ebf991710d9faeb4fe81cadb3ba6 (from https://pypi.org/simple/sklearn/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+    ERROR: Command errored out with exit status 1:
+     command: /appl/python/3.10.2/bin/python3 -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rfyutn7p/sklearn_b039f9c1234042f18be48b4079cdd574/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rfyutn7p/sklearn_b039f9c1234042f18be48b4079cdd574/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-d_gfc7ai
+         cwd: /tmp/pip-install-rfyutn7p/sklearn_b039f9c1234042f18be48b4079cdd574/
+    Complete output (18 lines):
+    The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+    rather than 'sklearn' for pip commands.
+    
+    Here is how to fix this error in the main use cases:
+    - use 'pip install scikit-learn' rather than 'pip install sklearn'
+    - replace 'sklearn' by 'scikit-learn' in your pip requirements files
+      (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+    - if the 'sklearn' package is used by one of your dependencies,
+      it would be great if you take some time to track which package uses
+      'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+    - as a last resort, set the environment variable
+      SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+    
+    More information is available at
+    https://github.com/scikit-learn/sklearn-pypi-package
+    
+    If the previous advice does not cover your use case, feel free to report it at
+    https://github.com/scikit-learn/sklearn-pypi-package/issues/new
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/28/86/207a003339023247fef1bb5bc9f5093140d17294b2f6d15bfcd4885e469e/sklearn-0.0.post9.tar.gz#sha256=1ff5864cf30489ee48a014fe8f4320d7bb59592392a4ef52ae9d7a37942615ac (from https://pypi.org/simple/sklearn/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+    ERROR: Command errored out with exit status 1:
+     command: /appl/python/3.10.2/bin/python3 -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rfyutn7p/sklearn_aef45755a8c3449bb8f007c93104575c/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rfyutn7p/sklearn_aef45755a8c3449bb8f007c93104575c/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-sg7chaec
+         cwd: /tmp/pip-install-rfyutn7p/sklearn_aef45755a8c3449bb8f007c93104575c/
+    Complete output (18 lines):
+    The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+    rather than 'sklearn' for pip commands.
+    
+    Here is how to fix this error in the main use cases:
+    - use 'pip install scikit-learn' rather than 'pip install sklearn'
+    - replace 'sklearn' by 'scikit-learn' in your pip requirements files
+      (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+    - if the 'sklearn' package is used by one of your dependencies,
+      it would be great if you take some time to track which package uses
+      'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+    - as a last resort, set the environment variable
+      SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+    
+    More information is available at
+    https://github.com/scikit-learn/sklearn-pypi-package
+    
+    If the previous advice does not cover your use case, feel free to report it at
+    https://github.com/scikit-learn/sklearn-pypi-package/issues/new
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/70/ce/81aa643f3c43488c4a1e417e45f696a61e7ac82b57190fad3c310df2c07b/sklearn-0.0.post7.tar.gz#sha256=1c89020b364fdc3aa2839e0ae34e8f0b406669e4b5c2359dda3ac398f9c76874 (from https://pypi.org/simple/sklearn/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+    ERROR: Command errored out with exit status 1:
+     command: /appl/python/3.10.2/bin/python3 -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rfyutn7p/sklearn_d8746f0376554a6d88cc6283d5d467d1/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rfyutn7p/sklearn_d8746f0376554a6d88cc6283d5d467d1/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-ty21p0y_
+         cwd: /tmp/pip-install-rfyutn7p/sklearn_d8746f0376554a6d88cc6283d5d467d1/
+    Complete output (18 lines):
+    The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+    rather than 'sklearn' for pip commands.
+    
+    Here is how to fix this error in the main use cases:
+    - use 'pip install scikit-learn' rather than 'pip install sklearn'
+    - replace 'sklearn' by 'scikit-learn' in your pip requirements files
+      (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+    - if the 'sklearn' package is used by one of your dependencies,
+      it would be great if you take some time to track which package uses
+      'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+    - as a last resort, set the environment variable
+      SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+    
+    More information is available at
+    https://github.com/scikit-learn/sklearn-pypi-package
+    
+    If the previous advice does not cover your use case, feel free to report it at
+    https://github.com/scikit-learn/sklearn-pypi-package/issues/new
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/7a/93/e0e1b1e98f39dfca7ec9795cb46f6e09e88a2fd5d4a28e4b3d1f618a2aec/sklearn-0.0.post5.tar.gz#sha256=7377c714a03a79bbe9196f435db931fd2a6fa8c68514da7ed3a251fd08c52e2c (from https://pypi.org/simple/sklearn/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+    ERROR: Command errored out with exit status 1:
+     command: /appl/python/3.10.2/bin/python3 -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rfyutn7p/sklearn_4ca3ca2bf8004d4f88ab65f9da82a30b/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rfyutn7p/sklearn_4ca3ca2bf8004d4f88ab65f9da82a30b/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-ezyo1ffa
+         cwd: /tmp/pip-install-rfyutn7p/sklearn_4ca3ca2bf8004d4f88ab65f9da82a30b/
+    Complete output (18 lines):
+    The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+    rather than 'sklearn' for pip commands.
+    
+    Here is how to fix this error in the main use cases:
+    - use 'pip install scikit-learn' rather than 'pip install sklearn'
+    - replace 'sklearn' by 'scikit-learn' in your pip requirements files
+      (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+    - if the 'sklearn' package is used by one of your dependencies,
+      it would be great if you take some time to track which package uses
+      'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+    - as a last resort, set the environment variable
+      SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+    
+    More information is available at
+    https://github.com/scikit-learn/sklearn-pypi-package
+    
+    If the previous advice does not cover your use case, feel free to report it at
+    https://github.com/scikit-learn/sklearn-pypi-package/issues/new
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/99/b2/165110013aa66fae6fc13918ad0e9de4801e5f1691d371bf8b63328037e6/sklearn-0.0.post4.tar.gz#sha256=0e81ec9c32d4bb418e7be8f1ec1027d174975502dc84cbc4f4564b4cba31e674 (from https://pypi.org/simple/sklearn/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+    ERROR: Command errored out with exit status 1:
+     command: /appl/python/3.10.2/bin/python3 -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-rfyutn7p/sklearn_8acf5b0def32472cb5ac058fa3b561f5/setup.py'"'"'; __file__='"'"'/tmp/pip-install-rfyutn7p/sklearn_8acf5b0def32472cb5ac058fa3b561f5/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-67iz6fw_
+         cwd: /tmp/pip-install-rfyutn7p/sklearn_8acf5b0def32472cb5ac058fa3b561f5/
+    Complete output (18 lines):
+    The 'sklearn' PyPI package is deprecated, use 'scikit-learn'
+    rather than 'sklearn' for pip commands.
+    
+    Here is how to fix this error in the main use cases:
+    - use 'pip install scikit-learn' rather than 'pip install sklearn'
+    - replace 'sklearn' by 'scikit-learn' in your pip requirements files
+      (requirements.txt, setup.py, setup.cfg, Pipfile, etc ...)
+    - if the 'sklearn' package is used by one of your dependencies,
+      it would be great if you take some time to track which package uses
+      'sklearn' instead of 'scikit-learn' and report it to their issue tracker
+    - as a last resort, set the environment variable
+      SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True to avoid this error
+    
+    More information is available at
+    https://github.com/scikit-learn/sklearn-pypi-package
+    
+    If the previous advice does not cover your use case, feel free to report it at
+    https://github.com/scikit-learn/sklearn-pypi-package/issues/new
+    ----------------------------------------
+WARNING: Discarding https://files.pythonhosted.org/packages/db/1e/af4e9cded5093a92e60d4ae7149a02c7427661b2db66c8ea4d34b17864a2/sklearn-0.0.post1.tar.gz#sha256=76b9ed1623775168657b86b5fe966d45752e5c87f528de6240c38923b94147c5 (from https://pypi.org/simple/sklearn/). Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+  WARNING: The script mako-render is installed in '/zhome/06/8/135695/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script tqdm is installed in '/zhome/06/8/135695/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script alembic is installed in '/zhome/06/8/135695/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script optuna is installed in '/zhome/06/8/135695/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+WARNING: Value for scheme.headers does not match. Please report this to <https://github.com/pypa/pip/issues/9617>
+distutils: /zhome/06/8/135695/.local/include/python3.10/UNKNOWN
+sysconfig: /zhome/06/8/135695/.local/include/python3.10
+WARNING: Additional context:
+user = True
+home = None
+root = None
+prefix = None
+WARNING: You are using pip version 21.1; however, version 24.0 is available.
+You should consider upgrading via the '/appl/python/3.10.2/bin/python3 -m pip install --upgrade pip' command.
+Traceback (most recent call last):
+  File "/zhome/06/8/135695/scripts/main_script_hpc.py", line 9, in <module>
+    from data.preprocessing import load_and_preprocess_data
+ModuleNotFoundError: No module named 'data'

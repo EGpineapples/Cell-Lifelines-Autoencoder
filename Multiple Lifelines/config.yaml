@@ -1,0 +1,26 @@
+data:
+  downsample_factor: 10
+  expected_timepoints: 376
+  folder_path: 100_dFBA_Lifelines
+model:
+  batch_size:
+  - 16
+  - 32
+  - 64
+  dense_units:
+  - 50
+  epochs: 5
+  learning_rate:
+    max: 0.01
+    min: 1.0e-05
+  lstm_units:
+  - 100
+  lstm_units_layer2:
+  - 70
+  min_lr: 1.0e-05
+  n_trials: 1
+  patience: 10
+  reduce_lr_patience: 5
+plotting:
+  lifeline_index: 12
+  reaction_index: 6
